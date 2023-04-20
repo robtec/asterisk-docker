@@ -1,13 +1,13 @@
-# X Docker
+# Asterisk Docker
 
-Docker container for X
+Docker container for Asterisk
 
 ## Setup
 
 
 Build the image
 ```
-docker build -t x-image .
+docker build -t asterisk-image .
 ```
 
 ## Running
