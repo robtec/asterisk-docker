@@ -17,7 +17,4 @@ RUN wget http://downloads.asterisk.org/pub/telephony/asterisk/releases/asterisk-
 RUN cd asterisk-1.8.32.3 && \
   ./configure && \
   make && \
-  make install && \
-  make samples
-  
-RUN rm -rf asterisk-1.8.32.3.tar.gz asterisk-1.8.32.3
+  make install
