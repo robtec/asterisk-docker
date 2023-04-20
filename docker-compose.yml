@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  x-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: x-image
+    container_name: x-service
+    ports:
+      - 25:25
+    environment:
+      KEY: var
